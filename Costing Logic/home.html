@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <form class="form-style-9" action="total.html">
+                <ul class="personal-details">		
+	                <li>
+		                <ul class="column">			
+			                <li>
+				                <label for="NameOfVessel">Enter the link</label>
+				                <input id="NameOfVessel" type="text" name="NameOfVessel" class="field-style field-split25 align-left" placeholder="Name of Vessel" />	
+                                <!-- <input id="NameOfVessel" type="text" name="NameOfVessel" class="field-style field-split25 align-left" placeholder="Name of Vessel" />	 -->
+			                </li>
+		                </ul>
+	                </li>							
+                </ul>
+
+                <button type="button" class="add-row">+</button> 
+                <div class="submit-div">
+	                <ul>
+		                <li>
+			                <input type="submit" value="Submit" class="submit-btn" onclick="myFunction()"/>
+		                </li>
+	                </ul>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            window.onload = function() {
+            var getInput = "Cutie";
+            // localStorage.setItem("storageName",getInput);
+            location.replace("http://example.com/Page_Two.html?" + getInput);
+        }
+        </script>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script language="javascript" type="text/javascript" src="logic.js"></script>
+    </body>
+</html>
